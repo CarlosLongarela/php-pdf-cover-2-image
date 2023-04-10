@@ -3,6 +3,8 @@ PHP simple function to convert pdf file cover to image (jpeg or png).
 
 ```php
 // Example of use.
+require_once 'pdf-cover-2-image.php';
+
 $path = dirname( __FILE__ );
 
 $pdf_file    = $path . '/pdf-uploads/test-cover.pdf';
